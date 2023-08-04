@@ -1,0 +1,14 @@
+﻿using MAUIBeginnerApp.ViewModel;
+
+namespace MAUIBeginnerApp;
+
+public partial class MainPage : ContentPage
+{
+
+	public MainPage(MainViewModel vm)
+	{
+		InitializeComponent();
+		BindingContext = vm;
+	}
+}
+
